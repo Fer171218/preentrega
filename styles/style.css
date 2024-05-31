@@ -1,27 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
-@media(max-width:425px){
 
-    .conteiner{   
-        display: grid;   
-        grid-template-columns: repeat(2,1px);
-        grid-template-rows: repeat(3,1px);
-        grid-template-areas:
-        "encabezado navegador"
-        "fotos info"
-        "footer footer";
-    }
-    #svtfoto{
-        width: 350px;
-        height: 250px;
-    }
-    #parrafo{
-        text-align: center;
-    }
-   #carouselExampleIndicators{
-    width: 400px;
-   }
-}
 #svtfoto{
     width: 440px; height: 340px;
 }
@@ -101,4 +80,26 @@ footer{
 }
 #vernonhaoshua{
 width: 350px;
+}
+@media(max-width:425px){
+
+    .conteiner{   
+        display: grid;   
+        grid-template-columns: repeat(2,1px);
+        grid-template-rows: repeat(3,1px);
+        grid-template-areas:
+        "encabezado navegador"
+        "fotos info"
+        "footer footer";
+    }
+    #svtfoto{
+        width: 350px;
+        height: 250px;
+    }
+    #parrafo{
+        text-align: center;
+    }
+   #carouselExampleIndicators{
+    width: 400px;
+   }
 }

@@ -1,16 +1,27 @@
-$paletaColores: #FFEADD, #FF6666, #FF8989;
+$paletaColores:  #FF6666, #FF8989, #FFEADD;
 p{
-color: nth($paletaColores,2 );
+    color: nth($paletaColores ,2 )
 }
 h1{
-    color: nth($paletaColores,2 );
+    color: nth($paletaColores ,2 );
 }
 h2{
-    color: nth($paletaColores,2 );
+    color: nth($paletaColores ,2 );
 }
 li a{
-    color: nth($paletaColores,2 );
+    color: nth($paletaColores ,2 );
 }
-a{
-    color: nth($paletaColores,2 );    
+%flexrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header{
+    @extend%flexrow
+}
+article{
+    @extend%flexrow
+}
+footer{
+    @extend%flexrow    
 }

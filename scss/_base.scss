@@ -1,3 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
-$paletaColores: #FFEADD, #FF6666, #FF8989
+$paletaColores: #FFEADD, #FF6666, #FF8989;
+p{
+color: nth($paletaColores,2 );
+}
+h1{
+    color: nth($paletaColores,2 );
+}
+h2{
+    color: nth($paletaColores,2 );
+}
+li a{
+    color: nth($paletaColores,2 );
+}
+a{
+    color: nth($paletaColores,2 );    
+}
